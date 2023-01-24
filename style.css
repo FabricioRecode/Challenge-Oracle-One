@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter: wght @400;700 & display=swap');
+*{font-family: 'Inter', sans-serif;box-sizing: border-box;}
+
+body{
+background: #E5E5E5;
+}
+textarea{
+width: 100%;
+min-height: 400px;
+background: transparent;
+color: #0A3871;
+font-family: 'Inter', sans-serif ;
+resize: vertical;
+}
+.container{
+width: 100%;
+max-width: 1400px;
+padding: 0 3%;
+margin: 0 auto;
+
+}
+header{
+width: 100%;
+
+}
+header .container{
+padding: 20px 0;
+
+}
+form{
+width: 60%;
+display: flex;
+flex-direction: column;
+
+
+}
+label{
+margin: 20px 0;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+main .container{
+display: flex;
+padding: 50px 3%;
+gap: 50px;
+}
+.grupoBtn{
+width: 100%;
+max-width: 600px;
+
+display: flex;
+gap: 20px;
+
+}
+.grupoBtn button{
+width: 100%;
+background: darkblue;
+color: white;
+border-radius: 8px;
+padding: 10px 15px;
+border: none;
+font-family: 'Inter', sans-serif;
+cursor: pointer;
+}
+#resultado{
+background: white;
+border-radius: 30px;
+position: relative;
+width: 40%;
+padding: 40px;
+color: #0A3871;
+}
+#resultado img{
+width: 100%;
+}
+#resultado h2{
+margin: 10px 0;
+font-size: 30px;
+color: #0A3871;
+font-weight: bold;
+
+}
+.grupo-resultado p{
+color: #0A3871;
+overflow-y:scroll ;
+height: 400px;	
+
+
+}
+#resultado .grupo-inicial{
+justify-content: center;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+#resultado button{
+width: 100%;
+background: darkblue;
+color: white;
+border-radius: 8px;
+padding: 10px 15px;
+border: none;
+font-family: 'Inter', sans-serif;
+margin-top: 20px;
+cursor: pointer;
+}
+.grupo-resultado{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.input-padrao{
+border: none;
+
+}
+@media screen and (max-width:1200px) {
+    main .container{
+        flex-direction: column;
+        }
+    form{
+        width: 100%;
+    }
+    #resultado{
+        width: 100%;
+    }
+    
+
+}
