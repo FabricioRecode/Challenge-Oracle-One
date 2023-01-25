@@ -34,6 +34,6 @@ descriptografar.addEventListener("click",function (){
 	`
 })
 function copy(){
-	navigator.clipboard.writeText(resultado.children[0].innerText)
-
+	navigator.clipboard.writeText(resultado.children[0].innerText.replace("Copiar",""))
+ console.log(resultado.children)
 }
